@@ -8,7 +8,7 @@
     :class="{ 'is-week-mode': selectionMode === 'week' }">
     <tbody>
     <tr>
-      <th v-if="showWeekNumber">{{ t('el.datepicker.week') }}</th>
+      <th v-if="showWeekNumber">{{ t('el.datepicker.week') }}周数</th>
       <th v-for="(week, key) in WEEKS" :key="key">{{ t('el.datepicker.weeks.' + week) }}</th>
     </tr>
     <tr
@@ -82,7 +82,7 @@
 
       showWeekNumber: {
         type: Boolean,
-        default: false
+        default: true
       },
 
       disabledDate: {},

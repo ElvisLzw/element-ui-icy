@@ -517,7 +517,7 @@
         disabledDate: '',
         selectableRange: [],
         firstDayOfWeek: 7,
-        showWeekNumber: false,
+        showWeekNumber: true,
         timePickerVisible: false,
         format: '',
         arrowControl: false,
